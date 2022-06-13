@@ -22,6 +22,18 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Husky integration
+
+Basic integration of husky with hooks for pre-commit, pre-push implemented.
+* pre-commit will run the linting after stagin the files to commit
+* pre-push will run the tests
+
+## Storybook integration
+
+Basic integration of storybook implemented.
+* Custom components can be created and documented in storybook.
+* Run `npm run storybook`, this will start a dev Storybook server and open the page in the browser.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
